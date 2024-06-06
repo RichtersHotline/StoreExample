@@ -9,6 +9,12 @@ aspect-ratio: 1;
 
 
 }
+body {
+
+    background-color: #301934;
+  color:white;
+
+}
 ::-webkit-scrollbar {
 
 display:none;
@@ -22,9 +28,16 @@ display:none;
 
    }
 }
+.nav-link {
+
+color:white;
+
+}
    img[alt="logo"] {
 
     width:5rem;
 
 
-   }   
+   }  
+   
+ 
