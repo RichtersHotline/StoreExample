@@ -31,8 +31,15 @@ display:none;
 .nav-link {
 
 color:white;
+}
+.navbar-nav > li {
+padding-left:30px;
+padding-right:30px;
+font-size:0.8rem;
+text-shadow:0.4px 0.4px fuchsia;
 
 }
+
    img[alt="logo"] {
 
     width:5rem;
