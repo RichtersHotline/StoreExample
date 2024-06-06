@@ -1,3 +1,30 @@
 /* */
 
 /*  */
+
+img {
+object-fit: cover;
+object-position: center;
+aspect-ratio: 1;
+
+
+}
+::-webkit-scrollbar {
+
+display:none;
+}
+.navbar {
+
+
+   &:img[alt="logo"] {
+    
+    width:2rem;
+
+   }
+}
+   img[alt="logo"] {
+
+    width:5rem;
+
+
+   }   
