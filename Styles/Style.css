@@ -2,6 +2,7 @@
 
 /*  */
 
+
 img {
 object-fit: cover;
 object-position: center;
@@ -14,12 +15,21 @@ body {
     background-color: 	#1b0e1e;
   color:white;
   text-shadow:0.4px 0.4px fuchsia;
-
+overflow-x:hidden;
 }
 :is(h2) {
-    text-shadow:3px 3px firebrick;
+    text-shadow:3px 3px 10px fuchsia;
 
 
+}
+#PromCon {
+
+  background-image:url("https://richtershotline.github.io/Pimages/Images/Open2.jpg");
+  /* background-size: 100% auto;
+  background-repeat: no-repeat; */
+background-size:center;
+background-position:center;
+background-attachment:fixed;
 }
 
 #BackgroundCon {
@@ -32,51 +42,148 @@ height:auto;
 text-align:center;
 padding:2rem;
 }
-.BGImg {
+#Text {
+max-width:50%;
+margin:auto;
+text-align: justify;
+text-justify: inter-word;
+
+padding:10px;
+word-wrap: break-word;
+}
+.VipButton {
+  
+}
+#VipBtn {
+
+ width:20%;
+ height:5%;
+ border-radius:7px;
+margin:auto;
+background-color:blueviolet;
+box-shadow:3px 3px 10px fuchsia;
+border:none;
+color:white;
+margin-top:9px;
+text-align:center;
+}
+#BackgroundConProm {
+
+  background-color:black;
+  opacity:0.9;
+  width:100%;
+  margin:auto;
+  height:auto;
+  text-align:center;
+  padding:2rem;
+
+}
+#VipImg {
+
+width:50%;
+height:90%;
+margin:auto;
+box-shadow:5px 5px 10px fuchsia;
+outline:2px solid fuchsia;
+}
+.BGImg { 
 
     background-image:url("https://richtershotline.github.io/Pimages/Images/BackgroundClub.jpg");
     /* background-size: 100% auto;
     background-repeat: no-repeat; */
 background-size:center;
 background-position:center;
-background-attachment: fixed;
+background-attachment:fixed;
 padding:2rem;
 }
 ::-webkit-scrollbar {
 
-display:none;
-}
-/* display grid */
-:is(body) {
-
-display:grid;
 
 }
-/* Set up rows */
-body {
+#this {
 
-/* grid-template-rows:auto minmax(100%, 100dvh) auto; */
+  background-color:orange;
+}
 
+.VipCon {
+
+display:flex;
+flex-direction:column;
 }
 
 .BodConBG {
 
-    background-color:black;
     width:25rem;
-   height:20rem;
    margin:auto;
+
    
+}
+
+.card {
+
+  background-color:rgb(27, 9, 43);
+  box-shadow:5px 5px 10px fuchsia;
+  outline:2px solid fuchsia;
+color:white;
+}
+
+.BodConBG img {
+  width:24.3rem;
+  height:19.4rem;
+  margin-top:0.4rem;
+
+box-shadow:5px 5px 10px fuchsia;
+outline:2px solid fuchsia;
+}
+.BodConBG p {
+  width:90%;
+  margin:auto;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top:0.9rem;
+  word-wrap: break-word;
+  padding:12px;
+
 }
 @media only screen and (max-width: 600px) {
 
 .BodConBG {
     background-color:black;
-    width:25rem;
-   height:20rem;
-   margin:auto;
-   margin-top:12px;
+    display:flex;
+   align-items:center;
+   width:90%;
+   flex-direction:column;
+   font-size:0.4rem;
 }
 
+.BodConBG img {
+width:100%;
+height:100%;
+object-fit: cover;
+
+
+  
+}
+
+.BodCon p {
+
+text-align:center;
+
+}
+
+#VipBtn {
+  width:50%;
+  height:auto;
+  border-radius:7px;
+ margin:auto;
+ background-color:blueviolet;
+ box-shadow:3px 3px 10px fuchsia;
+ border:none;
+ color:white;
+ margin-top:9px;
+ text-align:center;
+
+}
 }
 
 .navbar {
